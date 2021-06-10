@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+form{
+    margin-left: 5%;
+    font-family:"Raleway", sans-serif !important; 
+    font-size: 15px;
+    color:#112c44;
+    font-weight: lighter;
+    padding-top: 2%;
+
+}
+.checkoutsub{
+    margin-left: 5%;
+}
+
+input{
+    background-color:#eaeaea ;
+    border-style: none;
+    border-radius:11px ;
+    height:30px;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: -2%;
+}
+.name input{
+    width: 540px;
+    margin-right: 5%;
+}
+.fname input{
+    width: 1100px;
+}
+
+.phnum{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+.email{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    margin-right: 5%;
+    margin-top: -2%;
+}
+.stradd{
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+        margin-right: 5%;
+        margin-top: -2%;
+}
+.adddeets{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-top: -2%;
+    margin-right: 5%;
+}
+.suburb input{
+    width: 950px;
+    margin-right: 50px;
+}
+.state input{
+    width:400px;
+    margin-right: 50px;
+}
+.postc input{
+    width:250px;
+}
+
+.submit{
+    display: block;
+    align-content: center;
+    font-size: 40px;
+    font-family:"Raleway", sans-serif !important; 
+    color: white;
+    background-color:#2c6e5e ;
+    border-radius: 40px;
+    border-style: none;
+    width:95%;
+    margin-top: 5%;
+    height: 95px;
+    margin-bottom: 5%;
+}
+.submit2{
+    display: block;
+    align-content: center;
+    font-size: 40px;
+    font-family:"Raleway", sans-serif !important; 
+    color: white;
+    background-color:#2c6e5e ;
+    border-radius: 40px;
+    border-style: none;
+    width:90%;
+    height: 95px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: -1%;
+    text-decoration: none;
+}
+.submit3{
+    display: block;
+    align-content: center;
+    font-size: 40px;
+    font-family:"Raleway", sans-serif !important; 
+    color: white;
+    background-color:#2c6e5e ;
+    border-radius: 40px;
+    border-style: none;
+    width:135%;
+    height: 95px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    text-decoration: none;
+}
+.chk2{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.ordsum{
+    background-color: #112c44;
+    color: white;
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: -27%;
+    height: fit-content;
+    width: 522px;
+}
+.chk-item{
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10%;
+}
+.chk-item dt{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chk-item dd{
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 8px;
+}
+.list-div2{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-bottom-color: white;
+    border-width: 1px;
+}
+.list-div{
+    height:20px;
+}
+
+.ship1{
+    font-weight: normal;
+    font-size: 25px;
+}
+.select-rate{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.radio-p{
+    font-weight: normal;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:-10px;
+}
+
+.pay-form{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.card-op{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.card-img{
+    margin-left: 5%;
+}
+.tc-form{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.card-deets{
+    margin-right: 10%;
+    position: relative;
+    top:-10%
+}

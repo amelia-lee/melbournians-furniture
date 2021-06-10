@@ -1,0 +1,265 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+.kitchen{
+    width: 422px;
+    height: 441px;
+    border-radius: 100%;
+    border-color:#2C6E5E ;
+    border-style: solid;
+    border-width: medium;
+}
+
+.homeliving{
+    width: 604px;
+    height: 602px;
+    border-radius: 100%;
+    border-color: #2C6E5E;
+    border-style: solid;
+    border-width: medium;
+}
+
+.mainpromo{
+    background-color:#CBDAE8;
+    border-radius: 65px;
+    margin-right: 5%;
+    margin-top: -5%;
+    
+}
+
+.promo-wrap{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.home-liv{
+    text-align: center;
+    margin-left: -15%;
+    position: relative;
+    top:10%;
+}
+.home-kitch{
+    text-align: center;
+    position: relative;
+    top:-5%;
+    right:-5%
+
+}
+.home-but{
+    position: relative;
+    top:-15%
+}
+
+.opening{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.home-categories{
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+.reasons-list{
+    padding-left: 10%;
+    margin-top: -5%;
+}
+
+.reasons{
+    font-family: "Raleway", sans-serif !important;
+    font-size: 25px;
+    font-weight: lighter;
+    padding-bottom: 10%;
+}
+
+.indi-reasons{
+    margin-bottom: 20px;
+}
+
+
+.open{
+    width: 1709px;
+    height: 624px;
+    border-radius: 27px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.category-images{
+    width: 270px;
+    height: 220px;
+    border-radius: 111px;
+    border-color: #2C6E5E;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.categories-container{
+    background-color:#CBDAE8 ;
+    border-radius: 65px;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.sofa1{
+    text-align: center;
+}
+.cat2{
+    position: relative;
+    top: -25px;
+}
+.table1{
+    text-align: center;
+}
+
+.cabinets1{
+    text-align: center;
+}
+
+.decor1{
+    text-align: center;
+}
+
+.shelves1{
+    text-align: center;
+}
+
+.chairs1{
+    text-align: center;
+}
+
+
+.back{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 90% 2%;
+    height: 80px;
+    align-items: center;
+    margin-left: 5%;
+}
+.basket{
+    align-content: flex-end;
+}
+
+.product-main{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 3%;
+}
+.product-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 5%;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.item1{
+    align-content: center;
+}
+.item2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.prod-but{
+    width: 100px;
+    height:29px;
+    position:relative;
+    right:75px;
+    top:35%;
+}
+.prod-price{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: -10px;
+    text-align: left;
+    justify-content: baseline;
+}
+.item-img{
+    width:300px;
+    height:251px;
+    display: block;
+    align-content: center;
+}
+
+
+.pricing{
+    border-radius: 41px;
+    border-color: #2C6E5E;
+    border-style: solid;
+    display: inline-block;
+    vertical-align: middle;
+    height: min-content;
+    margin-right: 5%;
+    margin-top:10%;
+}
+
+.main-product{
+    width: 933px;
+    height: 647px;
+    border-radius: 60px;
+    border-style: none;
+    margin-left: 5%;
+    align-content: center;
+    display: inline-block;
+}
+
+.mini-product{
+    width: 206px;
+    height: 172px;
+    border-radius: 42px;
+    border-color: #b0b0b0;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    top: -20px;
+}
+
+.mini-product-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #112c44;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    height: 120px;
+    width: 844px
+
+}
+
+.divider{
+    border-top: 2px solid #b0b0b0;
+    display: block;
+    align-content: center;
+    width: 1690px;
+}
+.details{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.dimensions{
+    width:375px;
+    height: 350px;
+    margin-top: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: 20%;
+
+}
+
+footer{
+    font-family: "Raleway", sans-serif !important;
+    font-size: 26px;
+    font-weight: lighter;
+    text-align: right;
+    margin-top: 5%;
+    margin-right: 5%;
+}

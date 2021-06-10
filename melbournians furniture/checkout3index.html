@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Melbournians Furniture living</title>
+    <link rel="stylesheet" href="headerandbuttons.css">
+    <link rel="stylesheet" href="layouts.css">
+    <link rel="stylesheet" href="shoppingcart.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="navtop">
+            <a class= "sidebar" href="/"><img src="sidebar icom.png" class="sidebar"></a>
+            <a href= "homeindex.html"><img src="melbournians furniture logo.png" class="logo"></a>
+            <a href= "/"><input type="text" placeholder="Search" class="search"></a>
+        </div>
+
+        <div class="back"> 
+            <a href="checkout2index.html"><img src= "back arrow.png" alt="back"></a>
+    </header>
+
+    <main>
+        <h1>Checkout</h1>
+        <h2 class="checkoutsub">3.Payment</h2>
+        <div class="pay-form">
+            <form class="pay-method" action="Finishindex.html">
+                <p>How would you like to pay?</p>
+                <div class="card-op">
+                    <div class="option">
+                        <input type="radio" id="card" name="payment" value="card">
+                        <label for="card">Credit Card</label><br>
+                    </div>
+                    <img class="card-img" src= "credit cards.JPG">
+                </div>
+                <div class="card-op">
+                    <div class="option">
+                        <input type="radio" id="paypal" name="payment" value="paypal">
+                        <label for="paypal">Paypal</label><br>
+                    </div>
+                <img class="card-img" src= "Paypal.JPG">
+                </div>
+                <input class="submit3" type="submit" value="Pay $2892.71">
+            </form>
+            <aside class="card-deets">
+                <form>
+                    <div class="tc-form">
+                        <label for="cardnum">Card number</label>
+                        <input type="text" id="cardnum" name="cardnum"><br><br>
+                    </div>
+                    <div class="tc-form">
+                        <label for="expdate">Expiry date</label>
+                        <input type="text" id="expdate" name="expdate"><br><br>
+                    </div>
+                    <div class="tc-form">
+                        <label for="cvvnum">CVV number</label>
+                        <input type="text" id="cvvnum" name="cvvnum"><br><br>
+                    </div>
+                    <input type="checkbox" id="tc" name="tc" value="termsandconditions">
+                    <label for="tc">I have read and accepted the Terms & Conditions</label>
+                </form>
+            </aside>
+        </div>
+    </main>

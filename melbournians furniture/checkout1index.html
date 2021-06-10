@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Melbournians Furniture living</title>
+    <link rel="stylesheet" href="headerandbuttons.css">
+    <link rel="stylesheet" href="layouts.css">
+    <link rel="stylesheet" href="shoppingcart.css">
+    <link rel="stylesheet" href="checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="navtop">
+            <a class= "sidebar" href="/"><img src="sidebar icom.png" class="sidebar"></a>
+            <a href= "homeindex.html"><img src="melbournians furniture logo.png" class="logo"></a>
+            <a href= "/"><input type="text" placeholder="Search" class="search"></a>
+        </div>
+
+        <div class="back"> 
+            <a href="shoppingcartindex.html"><img src= "back arrow.png" alt="back"></a>
+        </div>
+    </header>
+
+    <main>
+        <h1>Checkout</h1>
+        <h2 class="checkoutsub">1. Customer Details</h2>
+
+        <div class= "form">
+            <form action="checkout2index.html" method="get">
+                <div class="name">
+                    <div class="fname">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname"></div>
+                    <div class="lname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname"><br><br></div>
+                </div>
+                
+                <div class="phnum">
+                    <label for="phnum">Phone Number</label>
+                    <input type="text" id="phnum" name="phnum"><br><br>
+                </div>
+                
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email"><br><br>
+                </div>
+                
+                <div class="stradd">
+                    <label for="stradd">Street Address</label>
+                    <input type="stradd" id="stradd" name="stradd"><br><br>
+                </div>
+
+                <div class="adddeets">
+                    <div class="suburb">
+                        <label for="sub">Suburb</label>
+                        <input type="sub" id="sub" name="sub">
+                    </div>
+                    <div class="state">
+                        <label for="state">State</label>
+                        <input type="state" id="state" name="state">
+                    </div>
+                    <div class="postc">
+                        <label for="postc">Postcode</label>
+                        <input type="postc" id="postc" name="postc"><br><br>
+                    </div>
+                </div>
+
+                <input class="submit" type="submit" value="2.Shipping">
+
+            </form>
+        </div>
+    </main>
